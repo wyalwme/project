@@ -1,0 +1,439 @@
+@font-face {
+  font-family: "Roboto";
+  src: url(../font/Roboto/Roboto.ttf);
+}
+@font-face {
+  font-family: "Roboto_italic";
+  src: url(../font/Roboto/Roboto-Italic.ttf);
+}
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+body header {
+  position: absolute;
+  width: 2011px;
+  height: 84px;
+  flex-shrink: 0;
+  background: #007765;
+}
+body header .logo {
+  position: relative;
+  margin-left: 328px;
+  margin-top: 19px;
+}
+body header .ssrank {
+  position: absolute;
+  display: inline-flex;
+  gap: 8px;
+  justify-content: center;
+  align-items: flex-start;
+  margin-left: 365px;
+  margin-top: 23px;
+}
+body header .ssrank a {
+  text-decoration: none;
+  color: #FFF;
+  font-family: "Roboto", sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+body header .ssrank .palka {
+  color: #FFF;
+  text-align: center;
+  font-family: "Roboto";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin: 0;
+}
+body main {
+  position: absolute;
+  margin-top: 84px;
+}
+body main .image {
+  width: 2011px;
+  height: 403px;
+  flex-shrink: 0;
+  background-image: url(../img/fon.png);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+}
+body main .image p {
+  position: absolute;
+  color: #FFF;
+  text-align: center;
+  font-family: "Roboto";
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-left: 507px;
+  margin-top: 142px;
+}
+body main .fonk {
+  position: absolute;
+  color: #007765;
+  text-align: center;
+  font-family: "Roboto";
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-left: 594px;
+}
+body main .text {
+  text-align: left;
+  font-family: "Roboto";
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  position: relative;
+  width: 1110px;
+  margin-left: 221px;
+  margin-top: 150px;
+}
+body main .neon {
+  width: 2011px;
+  height: 483px;
+  flex-shrink: 0;
+  background-image: url(../img/neoon.png);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+}
+body main .neon p {
+  width: 893px;
+  height: 228px;
+  flex-shrink: 0;
+  position: absolute;
+  color: #FFF;
+  text-align: center;
+  font-family: "Roboto_italic";
+  font-size: 48px;
+  font-weight: 500;
+  line-height: normal;
+  margin-left: 320px;
+  margin-top: 140px;
+}
+body main .drift {
+  position: absolute;
+  color: #007765;
+  text-align: center;
+  font-family: "Roboto";
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-left: 378px;
+}
+body main .icon {
+  width: 115px;
+  height: 115px;
+  flex-shrink: 0;
+  background: #FFF;
+  background-image: url(../img/ppc.png);
+  margin-left: 185px;
+  margin-top: 170px;
+}
+body main .hht {
+  width: 930px;
+  height: 110px;
+  flex-shrink: 0;
+  color: #000;
+  font-family: Roboto;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-left: 336px;
+  margin-top: -114px;
+}
+body main .stext {
+  width: 1110px;
+  height: 223px;
+  flex-shrink: 0;
+  color: #000;
+  font-family: "Roboto";
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-left: 165px;
+  margin-top: 50px;
+}
+body main .bak {
+  position: absolute;
+  width: 2011px;
+  height: 845px;
+  flex-shrink: 0;
+  background: #EEE;
+  margin-top: 100px;
+}
+body main .bak .team {
+  width: 1110px;
+  color: #007765;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-left: 185px;
+  margin-top: 85px;
+}
+body main .bak .rich {
+  position: absolute;
+  width: 168px;
+  height: 168px;
+  flex-shrink: 0;
+  background-image: url(../img/rich.png);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  margin-left: 300px;
+  margin-top: 0px;
+}
+body main .bak .rich .rich1 {
+  width: 200px;
+  color: #007765;
+  font-family: "Roboto";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-left: -13px;
+  margin-top: 173px;
+}
+body main .bak .rich .rich2 {
+  width: 200px;
+  color: #000;
+  font-family: "Roboto";
+  font-size: 18px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: normal;
+  margin-left: 25px;
+  margin-top: -18px;
+}
+body main .bak .denis {
+  position: absolute;
+  width: 168px;
+  height: 168px;
+  flex-shrink: 0;
+  background-image: url(../img/denis.png);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  margin-left: 660px;
+  margin-top: 0px;
+}
+body main .bak .denis .denis1 {
+  width: 350px;
+  color: #007765;
+  text-align: center;
+  font-family: "Roboto";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-left: -89px;
+  margin-top: 173px;
+}
+body main .bak .denis .denis2 {
+  width: 350px;
+  color: #000;
+  text-align: center;
+  font-family: "Roboto";
+  font-size: 18px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: normal;
+  margin-left: -90px;
+  margin-top: -18px;
+}
+body main .bak .bert {
+  position: absolute;
+  width: 168px;
+  height: 168px;
+  flex-shrink: 0;
+  background-image: url(../img/bert.png);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  margin-left: 1030px;
+  margin-top: 0px;
+}
+body main .bak .bert .bert1 {
+  width: 350px;
+  color: #007765;
+  text-align: center;
+  font-family: "Roboto";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-left: -88px;
+  margin-top: 173px;
+}
+body main .bak .bert .bert2 {
+  width: 350px;
+  color: #000;
+  text-align: center;
+  font-family: "Roboto";
+  font-size: 18px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: normal;
+  margin-left: -89px;
+  margin-top: -18px;
+}
+body main .bak .jar {
+  position: absolute;
+  width: 168px;
+  height: 168px;
+  flex-shrink: 0;
+  background-image: url(../img/jar.png);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  margin-left: 300px;
+  margin-top: 310px;
+}
+body main .bak .jar .jar1 {
+  width: 350px;
+  color: #007765;
+  text-align: center;
+  font-family: "Roboto";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-left: -92px;
+  margin-top: 175px;
+}
+body main .bak .jar .jar2 {
+  width: 350px;
+  color: #000;
+  text-align: center;
+  font-family: "Roboto";
+  font-size: 18px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: normal;
+  margin-left: -90px;
+  margin-top: -20px;
+}
+body main .bak .mon {
+  position: absolute;
+  width: 168px;
+  height: 168px;
+  flex-shrink: 0;
+  background-image: url(../img/mon.png);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  margin-left: 660px;
+  margin-top: 310px;
+}
+body main .bak .mon .mon1 {
+  width: 350px;
+  color: #007765;
+  text-align: center;
+  font-family: "Roboto";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-left: -90px;
+  margin-top: 173px;
+}
+body main .bak .mon .mon2 {
+  width: 350px;
+  color: #000;
+  text-align: center;
+  font-family: "Roboto";
+  font-size: 18px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: normal;
+  margin-left: -90px;
+  margin-top: -20px;
+}
+body main .bak .nel {
+  position: absolute;
+  width: 168px;
+  height: 168px;
+  flex-shrink: 0;
+  background-image: url(../img/nel.png);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  margin-left: 1030px;
+  margin-top: 310px;
+}
+body main .bak .nel .nel1 {
+  width: 350px;
+  color: #007765;
+  text-align: center;
+  font-family: "Roboto";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-left: -90px;
+  margin-top: 173px;
+}
+body main .bak .nel .nel2 {
+  width: 350px;
+  color: #000;
+  text-align: center;
+  font-family: "Roboto";
+  font-size: 18px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: normal;
+  margin-left: -90px;
+  margin-top: -20px;
+}
+body footer {
+  position: absolute;
+}
+body footer .bac {
+  width: 2011px;
+  height: 176px;
+  flex-shrink: 0;
+  background: #333;
+  position: absolute;
+  margin-top: 3070px;
+}
+body footer .bac .her {
+  width: 540px;
+  height: 64px;
+  flex-shrink: 0;
+  color: #FFF;
+  text-align: center;
+  font-family: "Roboto";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-left: 490px;
+  margin-top: 60px;
+}/*# sourceMappingURL=style.css.map */
